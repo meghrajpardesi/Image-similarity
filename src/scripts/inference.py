@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 from reduction_resnet import ReductionResNet
 
 class ImageSimilarity:
-    
+    """ImageSimilairty contain the methods for check similarity using reductionresnet"""
     
     def __init__(self):
         self.model = ReductionResNet()
